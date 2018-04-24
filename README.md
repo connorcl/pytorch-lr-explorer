@@ -1,2 +1,2 @@
 # pytorch-lr-explorer
-A simple PyTorch image classifier with an optimal learning rate finder and various per-iteration learning rate schedulers
+A Jupyter notebook eploring some sophisticated learning rate strategies for deep learning with PyTorch. Techniques demonstrated include systematically estimating an optimal learning rate, stochastic gradient descent with restarts and snapshot ensembling.
