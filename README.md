@@ -4,4 +4,4 @@ A Jupyter notebook exploring various sophisticated techniques for working with l
 * Time-based learning rate scheduling, and in particular cosine annealing with warm restarts, where the learning rate is cyclically varied between high and low boundaries in a cosine pattern. This particular technique comes from [this paper](https://arxiv.org/pdf/1608.03983.pdf) by Ilya Loshchilov & Frank Hutter.
 * Snapshot ensembling, an extension to the above technique where a snapshot is taken before every restart and the last _M_ snapshots are used as an ensemble. This technique is based on [this paper](https://arxiv.org/pdf/1704.00109.pdf) by Gao Huang, Yixuan Li, Geoff Pleiss, Zhuang Liu, John E. Hopcroft, Kilian Q. Weinberger.
 
-These strategies are demonstrated with respect to a relatively simple image classification problem (CIFAR10) using a basic resnet-style convolutional neural network created with [PyTorch](pytorch.org).
+These strategies are demonstrated with respect to a relatively simple image classification problem (CIFAR10) using a simple resnet-style convolutional neural network created with [PyTorch](pytorch.org).
